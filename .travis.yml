@@ -5,6 +5,7 @@ rvm:
 
 before_script:
   - gem install rake
+  - gem install rspec
   - bundle install
 
 script: rake
